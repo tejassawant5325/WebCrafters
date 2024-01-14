@@ -183,6 +183,17 @@ h5,
     color: #4285f4;
 }
 
+/* Contact-Info */
+.contact-info {
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 220px 0 0;
+    background-color: #4285f4;
+    color: #ffffff;
+}
+
 /* Navbar */
 
 .site-navbar {
@@ -191,6 +202,7 @@ h5,
     position: absolute;
     width: 100%;
     background: #fff;
+    padding: 0 !important;
 }
 
 .site-navbar .site-logo {
@@ -549,10 +561,10 @@ h5,
     box-shadow: 4px 0 20px -10px rgba(0, 0, 0, 0.2);
 }
 
-.sticky-wrapper .shrink {
+/* .sticky-wrapper .shrink {
     padding-top: 10px !important;
     padding-bottom: 10px !important;
-}
+} */
 
 /* Blocks */
 
@@ -565,7 +577,7 @@ h5,
     background: -ms-linear-gradient(left, #4286f4 0%, #42e2f4 100%);
     background: -webkit-gradient(linear, left top, right top, from(#4286f4), to(#42e2f4));
     background: linear-gradient(to right, #4286f4 0%, #42e2f4 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4286f4', endColorstr='#42e2f4', GradientType=1);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4286f4', endColorstr='#42e2f4', GradientType=1);
 }
 
 .site-blocks-cover {
@@ -729,6 +741,7 @@ h5,
 }
 
 @media (min-width: 768px) {
+
     .slide-one-item.home-slider .owl-prev,
     .slide-one-item.home-slider .owl-next {
         font-size: 25px;
